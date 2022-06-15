@@ -18,7 +18,7 @@ inputBox.addEventListener('input', function(e) {
   const inputValueInArray = commaSeperated.split('');
   for (let i = 0; i < inputValueInArray.length; i++) {
     if (
-      inputValueInArray[i] === numberOne &&
+      inputValueInArray[i] === numberOne ||
       inputValueInArray[i] === numberZero
     ) {
       invalidNumberTextOne.innerHTML = '';
