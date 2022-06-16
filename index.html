@@ -12,7 +12,7 @@
     <h1 id="">Bin2Dec</h1>
     <p>Enter a binary number, get a decimal conversion.</p>
     <p id="invalid-number-text-one"></p>
-    <input type="number" id="user-input" maxlength="8">
+    <input type="text" id="user-input" oninput="this.value = this.value.replace(/[^0-1.]/g, '').replace(/(\..*)\./g, '$1');">
     <p id="invalid-number-text-two"></p>
     <p id="decimal-number" style="color: blue;">O número é: 0000</p>
   </form>
