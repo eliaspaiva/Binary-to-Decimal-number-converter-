@@ -10,11 +10,9 @@
 <body>
   <form>
     <h1 id="">Bin2Dec</h1>
-    <p>Enter a binary number, get a decimal conversion.</p>
-    <p id="invalid-number-text-one"></p>
+    <label>Enter a binary number, get a decimal conversion.</label><br>
     <input type="text" id="user-input" oninput="this.value = this.value.replace(/[^0-1.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="8">
-    <p id="invalid-number-text-two"></p>
-    <p id="display-decimal-number" style="color: blue;">O número é: 0000</p>
+    <p id="display-decimal-number">The decimal number is: <span id="decimal-result"></span></p>
   </form>
 
 
