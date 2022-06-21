@@ -12,6 +12,7 @@
 }
 
 input[type=text] {
+  max-width: 300px;
   width: 70%;
   padding: 12px 20px;
   border-color: white;
@@ -46,4 +47,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
