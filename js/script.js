@@ -6,9 +6,9 @@ const decimalConversion = document.getElementById('decimal-result');
 inputValue.addEventListener('input', () => {
   const numberInputed = inputValue.value;
   if (inputValue.value.length === 0) {
-    decimalConversion.innerHTML = '';
+    decimalConversion.innerHTML = '🤷Waiting for a valid binary number...';
   } else {
     const binaryNumber = parseInt(numberInputed, 2);
-    decimalConversion.innerHTML = `${binaryNumber}`;
+    decimalConversion.innerHTML = `The decimal number is: ${binaryNumber}`;
   }
 });

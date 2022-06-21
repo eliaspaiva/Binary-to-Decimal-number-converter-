@@ -15,12 +15,12 @@
     <form>
       <h1>Bin2Dec</h1>
       <label>Enter a binary number, get a decimal conversion.</label><br>
-      <input type="text" id="user-input" oninput="this.value = this.value.replace(/[^0-1.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="8">
-      <p id="display-decimal-number">The decimal number is: <span id="decimal-result"></span></p>
+      <input type="text" id="user-input" oninput="this.value = this.value.replace(/[^0-1.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10">
+      <p id="decimal-result">🤷 Waiting for a valid binary number...</p>
     </form>
-  </div>
-
-
+  
+  <footer> Made by <span>Elias Paiva</span></footer>
+</div>
   <!-- Javascript -->
   <script src="/js/script.js"></script>
 </body>

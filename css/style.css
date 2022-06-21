@@ -3,8 +3,22 @@
   font-family: 'Quicksand', sans-serif;
   background-color: black
 }
+
 .page-wrapper {
+  margin-top: 2rem;
   color: white;
+  text-align: center;
+  min-height: calc(100vh - 70px);
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  border-color: white;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -20,3 +34,16 @@ label {
   line-height: 24px;
   font-size: 1rem;
 }
+
+span {
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  position: fixed;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  width: 100%;
+}
+
